@@ -21,7 +21,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/yuoj
+    url: jdbc:mysql://localhost:3306/yuoj?useUnicode=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: root
   # Redis 配置
